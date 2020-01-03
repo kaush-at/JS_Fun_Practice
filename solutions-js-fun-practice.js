@@ -48,3 +48,13 @@ console.log(minb(7,5));
 maxb = (a,b) => a > b ? a : b;
 console.log(maxb(2, 5));
 console.log(maxb(7, 5));
+
+//------------------------------------------------------------------------------
+
+// 07).add(...nums) ⇒ number
+// Write a function add that is generalized for any amount of arguments
+
+add = (...nums) => nums.reduce((total, number) => {
+    return total + number
+});
+console.log(add(1,2,3,4,5));
