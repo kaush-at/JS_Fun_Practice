@@ -58,3 +58,12 @@ add = (...nums) => nums.reduce((total, number) => {
     return total + number
 });
 console.log(add(1,2,3,4,5));
+
+//------------------------------------------------------------------------------
+
+// 08).sub(...nums) ⇒ number
+// Write a function sub that is generalized for any amount of arguments
+sub = (...nums) => nums.reduce((answr, number)=>{
+    return  answr - number ;
+});
+console.log(sub(1,2,3,4));
