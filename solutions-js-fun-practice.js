@@ -67,3 +67,13 @@ sub = (...nums) => nums.reduce((answr, number)=>{
     return  answr - number ;
 });
 console.log(sub(1,2,3,4));
+
+//------------------------------------------------------------------------------
+// mul(...nums) ⇒ number
+// Write a function mul that is generalized for any amount of arguments
+mul= (...nums) => nums.reduce((answr, number) =>{
+    return answr * number;
+});
+console.log(mul(1, 2, 3, 4));
+
+//------------------------------------------------------------------------------
